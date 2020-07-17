@@ -20,10 +20,8 @@ def game_start
       end 
   
   elsif mode == "2"  # Comp. v Comp.
-    Gmae.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
+    Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
   end
-  
-  puts "New game? [y/n]"
   
 end
 
