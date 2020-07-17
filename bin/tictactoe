@@ -12,6 +12,7 @@ def game_start
   mode = gets.chomp
   
   if mode == "1"
+    puts "Let the other guy go first?"
     
   
   
