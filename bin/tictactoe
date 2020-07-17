@@ -11,7 +11,7 @@ def game_start
   
   mode = gets.chomp
   
-  def 
+  if mode == 1
   
   
   
