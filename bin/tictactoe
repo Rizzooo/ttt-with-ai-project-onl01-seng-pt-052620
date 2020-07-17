@@ -25,10 +25,9 @@ def game_start
   
   puts "New game? [ y / n ]
   
-  game_start until gets.chomp == "n"
 end
 
-
+game_start until gets.chomp == "n"
     
   
   
