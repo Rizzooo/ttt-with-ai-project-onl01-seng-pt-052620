@@ -29,6 +29,9 @@ def game_start
   
   puts "New game? [ y / n ]
   
+end
+
+
     
   
   
