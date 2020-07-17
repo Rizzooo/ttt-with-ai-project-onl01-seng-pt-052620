@@ -3,5 +3,5 @@ require_relative '../config/environment'
 
 def game_start
   puts "Welcome to CL Tic-Tac-Toe!"
-  puts "/nWhat kind of game would you like to begin? Choose mode:"
+  puts "\nWhat kind of game would you like to begin? Choose mode:"
   
