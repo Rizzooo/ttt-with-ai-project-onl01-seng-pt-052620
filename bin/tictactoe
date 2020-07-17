@@ -5,9 +5,9 @@ def game_start
   puts "Welcome to CL Tic-Tac-Toe!"
   puts "\nWhat kind of game would you like to begin? Choose mode:"
   
-  0 = You vs. A friend
-  1 = You vs. Computer
-  2 = Computer vs. Computer
+  0 - You vs. A friend
+  1 - You vs. Computer
+  2 - Computer vs. Computer
   
   mode = gets.chomp
   
