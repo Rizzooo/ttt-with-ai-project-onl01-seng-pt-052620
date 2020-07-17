@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../config/environment'
 
+game_start
+
 def game_start
   puts "Welcome to CL Tic-Tac-Toe!"
   puts "\nWhat kind of game would you like to begin? Choose mode:"
@@ -26,7 +28,5 @@ def game_start
   puts "New game? [y/n]"
   
 end
-
-game_start
   
   
