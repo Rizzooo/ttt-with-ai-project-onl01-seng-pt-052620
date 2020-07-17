@@ -31,7 +31,7 @@ def game_start
   
 end
 
-
+game_start until gets.chomp == "n"
     
   
   
