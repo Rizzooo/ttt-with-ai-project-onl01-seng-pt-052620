@@ -27,7 +27,7 @@ def game_start
   
 end
 
-gets.chomp = 
+gets.chomp = new_game?
 
 game_start until gets.chomp == "n"
     
