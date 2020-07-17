@@ -16,7 +16,9 @@ def game_start
       if gets.chomp == "y"
         Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
       else
-        
+        Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
+      end 
+  elsif mode == "0"
     
   
   
