@@ -23,6 +23,7 @@ def game_start
     Gmae.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
   end
   
-  puts "New game? [y/n]
+  puts "New game? [y/n]"
   
 end
+
