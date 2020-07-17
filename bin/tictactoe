@@ -11,7 +11,7 @@ def game_start
     Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
   
   elsif mode == "1"  # Human v Comp.
-    puts "Let the other guy go first? [ y / n ]"
+    puts "Let the other guy go first? [y/n]"
       
       if gets.chomp == "y"
         Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
@@ -23,7 +23,7 @@ def game_start
     Gmae.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
   end
   
-  puts "New game? [y / n ]
+  puts "New game? [y/n]
   
 end
 
