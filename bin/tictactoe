@@ -29,7 +29,7 @@ end
 
 gets.chomp = new_game?
 
-game_start until gets.chomp == "n"
+game_start until new_game == "n"
     
   
   
