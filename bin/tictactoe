@@ -14,6 +14,8 @@ def game_start
   if mode == "1"
     puts "Let the other guy go first? [ y / n ]"
       if gets.chomp == "y"
+        Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
+      else
         
     
   
