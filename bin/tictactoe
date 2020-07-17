@@ -9,5 +9,7 @@ def game_start
   1 = You vs. Computer
   2 = Computer vs. Computer
   
+  mode = gets.chomp
+  
   
   
